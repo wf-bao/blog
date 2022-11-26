@@ -8,20 +8,20 @@ module.exports = defineConfig({
   productionSourceMap: false,
   devServer: {
     proxy: {
-      // '/api': {
-      //   target: 'http://localhost:8080',
-      //   changeOrigin: true,
-      //   pathRewrite: {
-      //     '^/api': ''
-      //   }
-      // }
       '/api': {
-        target: 'http://120.79.215.233:8080',
+        target: 'http://localhost:8080',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
         }
       }
+      // '/api': {
+      //   target: 'http://120.79.215.233:8080',
+      //   changeOrigin: true,
+      //   pathRewrite: {
+      //     '^/api': ''
+      //   }
+      // }
     }
   },
   configureWebpack: {
