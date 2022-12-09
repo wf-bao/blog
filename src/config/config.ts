@@ -4,7 +4,7 @@ export default {
   },
   qqLogin: {
     QQ_APP_ID: '102034246',
-    QQ_REDIRECT_URI: 'https://www.wfbao.xyz/oauth/login/qq'
+    QQ_REDIRECT_URI: 'https://wfbao.xyz/oauth/login/qq'
   },
   routes: [
     {
